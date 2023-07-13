@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  main:
+    web-application-type: reactive
+  application:
+    name: AUTH-APP
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
